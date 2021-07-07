@@ -17,8 +17,8 @@ Python Web Application links shortcut ,  framework Django
  الي مشروعك linksShortcut 
  
 settings.py ثم  اكتب اسم التطبيق في 
-Emphasis
-INSTALLED_APPS= [
+
+>INSTALLED_APPS= [
 	....
 	'linksShortcut',
 ]
