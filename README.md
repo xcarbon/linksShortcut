@@ -23,3 +23,7 @@ settings.py ثم  اكتب اسم التطبيق في
 	'linksShortcut',
 ]
 
+```python
+s = "Python syntax highlighting"
+print s
+```
