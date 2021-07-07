@@ -17,13 +17,10 @@ Python Web Application links shortcut ,  framework Django
  الي مشروعك linksShortcut 
  
 settings.py ثم  اكتب اسم التطبيق في 
-
+```python
 >INSTALLED_APPS= [
 	....
 	'linksShortcut',
 ]
-
-```python
-s = "Python syntax highlighting"
-print s
 ```
+
