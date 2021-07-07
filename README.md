@@ -23,4 +23,54 @@ settings.py ثم  اكتب اسم التطبيق في
 	'linksShortcut',
 ]
 ```
+urls اضف روابط التطبيق في ملف  الخاص بمشروعك
 
+```python
+    path('links_Shortcut/', include('linksShortcut.urls'),name='linksShortcut'),
+    
+include  لاتنسنى استدعاء   
+from django.urls import path,include
+
+
+```
+فعل البية الافتراضية
+
+اعمل مايقريشن للتطبيق 
+
+```python
+
+python manage.py makemigrations linksShortcut
+ 
+```
+
+
+اعمل مايقريد
+
+```python
+
+python manage.py migrate
+
+```
+ثم شغل السيرفر 
+
+
+```python
+python manage.py runserver
+```
+
+ادخل الي لوحة التحكم من قائمة اختصار الروابط   ادخل على إعدادات
+ ثم اضف اعدادات  
+ 
+ثم ادخل 
+
+```python
+http://localhost:8000/links_Shortcut/Create/
+```
+
+انتهى 
+
+######   telegram اتواجد في                                                                                                                                                      
+###   @xking المعرف    
+
+
+انتهى 
