@@ -29,6 +29,8 @@ urls اضف روابط التطبيق في ملف  الخاص بمشروعك
     
 include  لاتنسنى استدعاء   
 from django.urls import path,include
+
+
 urlpatterns = [
     path('links_Shortcut/', include('linksShortcut.urls'),name='linksShortcut'),
 ]
